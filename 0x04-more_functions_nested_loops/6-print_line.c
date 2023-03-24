@@ -1,19 +1,13 @@
 #include "main.h"
 
 /**
- * print_line - entry point
- *	@n: int number
- * Description: --
- * Return: --
+ * print_line - print a straight line using putchar of n size
+ * @n: size of line
  */
+
 void print_line(int n)
 {
-	int i = 0;
-
-	while (i < n)
-	{
-		_putchar('_');
-		i++;
-	}
-	_putchar('\n');
+for (; n > 0; n--)
+_putchar('_');
+_putchar('\n');
 }
