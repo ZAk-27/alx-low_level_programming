@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_diagonal - print a straight line using putchar of n size
- * @n: size of line
+ * print_diagonal - entry point
+ *	@n: int number
+ * Description: --
+ * Return: --
  */
-
 void print_diagonal(int n)
 {
 	int i = 0;
@@ -26,5 +27,4 @@ void print_diagonal(int n)
 		i++;
 	}
 	if (n <= 0)
-		_putchar('\n');
-}
+		_putchar('\n')
