@@ -4,7 +4,7 @@
 /**
  * print_listint-t   print  elements of linked list and return # of elements
  *
- * @z: pointer to the first element
+ * @h: pointer to the first element
  * Return: elements numbers
  */
 
@@ -13,11 +13,11 @@ size_t print_listint(const listint_t *h)
 
 	size_t num = 0;
 
-	while (z)
+	while (h)
 	{
-		printf("%d\n", z->n);
+		printf("%d\n", h->n);
 		num++;
-		z = z->next;
+		h = h->next;
 	}
 
 	return (num);
