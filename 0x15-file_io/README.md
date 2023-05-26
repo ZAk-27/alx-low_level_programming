@@ -1,4 +1,0 @@
-0x15 C - File I/O
-
-3 TASKS
-+ 1 ADV TASK
