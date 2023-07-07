@@ -1,0 +1,13 @@
+#include <unistd.h>
+
+/**
+ * _putchar - wrte kar c to stdout
+ * @c: The char to b print
+ *
+ * Return: On success 1.
+ * if error, -1 is returned orr is set approply.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
