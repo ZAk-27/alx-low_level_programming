@@ -1,18 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 
-int main(void)
-{
-    int n;
+/**
+ * get_endianness - function
+ * Return: Always 0.
+ */
 
-    n = get_endianness();
-    if (n != 0)
-    {
-        printf("Little Endian\n");
-    }
-    else
-    {
-        printf("Big Endian\n");
-    }
-    return (0);
+int get_endianness(void)
+{
+	int k = 1;
+
+	if (*(char *)&k)
+		return (1);
+	return (0);
 }
